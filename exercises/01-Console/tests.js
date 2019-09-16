@@ -24,7 +24,7 @@ describe('All the javascript should match', function () {
         */
 
         //then I import the index.js (which should have the alert() call inside)
-        const file = require("./app.js.js");
+        const file = require("./app.js");
 
         //Expect the console log to have been called with "Hello World" at least one
         expect(console.log).toHaveBeenCalledWith("Hello World");
