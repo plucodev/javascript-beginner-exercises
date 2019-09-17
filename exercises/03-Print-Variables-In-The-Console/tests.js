@@ -16,7 +16,7 @@ describe('All the javascript should match', function () {
     });
     afterEach(() => { jest.resetModules(); });
 
-    it('1. The variable content in the console.log should be "Yellow', function () {
+    it('1. The variable content in the console.log should be "red', function () {
 
         /*
             Here is how to mock the alert function:
